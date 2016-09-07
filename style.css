@@ -1,9 +1,11 @@
-/*Table of Contents
+/*
+Table of Contents
 1.0 Elements
 2.0 Sections
 3.0 Text
 4.0 Colors
-5.0 Responsiveness*/
+5.0 Responsiveness
+*/
 
 /*1.0 Elements*/
 
@@ -21,6 +23,14 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 h1, h2, h3, h4, h5, h6, p, label, .btn, a{
     font-family: Lato;
+}
+
+iframe{
+    border:0;
+}
+
+video {
+    width: 100%;
 }
 
 /*2.0 Sections*/
@@ -54,6 +64,10 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
     width: 100%;
 }
 
+.marketplace p {
+    color: black;
+}
+
 .footer {
     clear: both;
     width: 100%;
@@ -82,47 +96,6 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 }
 .voffset-lg{
     margin-top:80px;
-}
-
-/* Bloc text custom styling */
-
-#bloc-1 h3 {
-    font-size: 32px;
-    font-weight: 900;
-    font-family: Montserrat;
-}
-#bloc-1 p{
-    font-weight: 400;
-    font-family: Montserrat;
-}
-#balt-houses h3{
-    font-weight: 400;
-    font-family: Montserrat;
-}
-#porfolio h2{
-    font-weight: 400;
-    font-family: Montserrat;	
-}
-#team h2{
-    font-weight: 400;
-    font-family: Montserrat;
-}
-#bloc-6 h3{
-    line-height:50px;
-}
-
-
-
-/* = Bric adjustment margins
--------------------------------------------------------------- */
-
-.mg-md{
-    margin-top:10px;
-    margin-bottom:20px;
-}
-.mg-lg{
-    margin-top:10px;
-    margin-bottom:40px;
 }
 
 /* = Buttons
@@ -188,8 +161,6 @@ button{
     padding:14px;
 }
 
-
-
 .panel-sq, .panel-sq .panel-heading, .panel-sq .panel-footer{
     border-radius:0;
 }
@@ -207,9 +178,8 @@ button{
 
 /* iFrame */
 
-iframe{
-    border:0;
-}
+
+
 
 .page-container {
     border: 10px solid black;
@@ -218,10 +188,7 @@ iframe{
     margin-left: auto;
 }
 
-.content {
-    margin: 0 25% 0 0;
-}
-
+/*3.0 Texts*/
 
 .text-center {
     text-align: center;
